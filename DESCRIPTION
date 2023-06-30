@@ -1,0 +1,20 @@
+Package: VarDis
+type: package
+Title: Analisis Discriminante Lineal
+Version: 0.0.0.9000
+Authors@R: 
+    Eber Giovany Ramirez Herrera <erghangeles@gmail.com>
+Description: El paquete VarDis es una herramienta de análisis discriminante lineal diseñada para realizar análisis de clasificación en conjuntos de datos.
+    Utilizando este paquete, puedes entrenar modelos de análisis discriminante a partir de datos de producción de leche y predecir la alimentación 
+    de los animales en función de variables como el consumo diario y el tiempo de ordeño. El paquete proporciona funciones para realizar validación cruzada, calcular medidas de precisión y crear gráficos de dispersión con las funciones discriminantes como ejes. VarDis facilita el análisis de clasificación en el contexto de la producción de leche y puede ayudar en la toma de decisiones relacionadas con la alimentación de los animales.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    MASS,
+    readxl,
+    ggplot2,
+    caret,
+    gridExtra,
+    lattice
